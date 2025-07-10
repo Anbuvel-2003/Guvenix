@@ -1,11 +1,5 @@
 import React from "react";
 import aboutus from "../assets/aboutus2.png";
-import Support from "../assets/support.png";
-import Business from "../assets/busniess.png";
-import Financial from "../assets/financial.png";
-import Icons1 from "../assets/Icons.png";
-import Icons2 from "../assets/Vector (1).png";
-import Icons3 from "../assets/Vector.png";
 import aboutus1 from "../assets/aboutus1.png";
 import aboutus3 from "../assets/aboutus3.png";
 import team1 from "../assets/team1.png";

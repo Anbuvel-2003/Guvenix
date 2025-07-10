@@ -7,6 +7,9 @@ function Contactus() {
             <div className="w-full !mb-10">
                 <img src={contactUs} alt="" className="object-contain" />
             </div>
+            <div>
+                
+            </div>
         </div>
     )
 }
