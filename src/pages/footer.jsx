@@ -80,7 +80,7 @@ function Footer() {
                             <span className="!mb-1">
                                 {" "}
                                 <a
-                                    href="/aboutUs"
+                                    href="/Aboutus"
                                     className="text-[#6e6e6e] text-[16px] font-syne capitalize"
                                 >
                                     About Us

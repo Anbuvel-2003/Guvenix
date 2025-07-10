@@ -6,6 +6,7 @@ import { LuBrainCircuit, LuCloudCog, LuMonitorCog } from "react-icons/lu";
 import { FaPencilRuler } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { TbBrandSpeedtest } from "react-icons/tb";
+import { FaCloudMeatball } from "react-icons/fa";
 
 // Dropdown component for better organization
 const DropdownMenu = ({ items, isOpen, isHorizontal = false }) => {
@@ -35,15 +36,15 @@ const DropdownMenu = ({ items, isOpen, isHorizontal = false }) => {
                                         <div
                                             className={`flex justify-center items-center transition-all duration-300 
                        bg-gradient-to-r from-indigo-500 to-cyan-400
-                       !p-3 rounded-full`}
+                       !p-2 rounded-full`}
                                         >
                                             <CiSettings size={30} style={{ color: "white" }} />
                                         </div>
-                                    ) : item?.id == 2 ? (
+                                    ) : item?.id == 5 ? (
                                         <div
                                             className={`flex justify-center items-center transition-all duration-300 
                        bg-gradient-to-r from-indigo-500 to-cyan-400
-                       !p-3 rounded-full`}
+                       !p-2 rounded-full`}
                                         >
                                             <LuCloudCog size={30} style={{ color: "white" }} />
                                         </div>
@@ -51,15 +52,15 @@ const DropdownMenu = ({ items, isOpen, isHorizontal = false }) => {
                                         <div
                                             className={`flex justify-center items-center transition-all duration-300 
                        bg-gradient-to-r from-indigo-500 to-cyan-400
-                       !p-3 rounded-full`}
+                       !p-2 rounded-full`}
                                         >
                                             <CiMobile3 size={30} style={{ color: "white" }} />
                                         </div>
-                                    ) : item?.id == 4 ? (
+                                    ) : item?.id == 2 ? (
                                         <div
                                             className={`flex justify-center items-center transition-all duration-300 
                        bg-gradient-to-r from-indigo-500 to-cyan-400
-                       !p-3 rounded-full`}
+                       !p-2 rounded-full`}
                                         >
                                             <LuMonitorCog size={30} style={{ color: "white" }} />
                                         </div>
@@ -67,7 +68,7 @@ const DropdownMenu = ({ items, isOpen, isHorizontal = false }) => {
                                         <div
                                             className={`flex justify-center items-center transition-all duration-300 
                        bg-gradient-to-r from-indigo-500 to-cyan-400
-                       !p-3 rounded-full`}
+                       !p-2 rounded-full`}
                                         >
                                             <AiOutlineShoppingCart
                                                 size={30}
@@ -78,7 +79,7 @@ const DropdownMenu = ({ items, isOpen, isHorizontal = false }) => {
                                         <div
                                             className={`flex justify-center items-center transition-all duration-300 
                        bg-gradient-to-r from-indigo-500 to-cyan-400
-                       !p-3 rounded-full`}
+                       !p-2 rounded-full`}
                                         >
                                             <FaPencilRuler size={30} style={{ color: "white" }} />
                                         </div>
@@ -86,7 +87,7 @@ const DropdownMenu = ({ items, isOpen, isHorizontal = false }) => {
                                         <div
                                             className={`flex justify-center items-center transition-all duration-300 
                        bg-gradient-to-r from-indigo-500 to-cyan-400
-                       !p-3 rounded-full`}
+                       !p-2 rounded-full`}
                                         >
                                             <LuBrainCircuit size={30} style={{ color: "white" }} />
                                         </div>
@@ -94,7 +95,7 @@ const DropdownMenu = ({ items, isOpen, isHorizontal = false }) => {
                                         <div
                                             className={`flex justify-center items-center transition-all duration-300 
                        bg-gradient-to-r from-indigo-500 to-cyan-400
-                       !p-3 rounded-full`}
+                       !p-2 rounded-full`}
                                         >
                                             <TbBrandSpeedtest size={30} style={{ color: "white" }} />
                                         </div>
