@@ -376,7 +376,7 @@ const Navbar = () => {
                                         className={`pl-4 overflow-hidden transition-all duration-300 ease-in-out ${activeDropdown === index
                                             ? "max-h-64 opacity-100"
                                             : activeDropdown == null
-                                                ? "max-h-0 opacity-0 bg-red-900"
+                                                ? "max-h-0 opacity-0 "
                                                 : "max-h-0 opacity-0"
                                             }`}
                                     >
